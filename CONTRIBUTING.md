@@ -1,20 +1,22 @@
-# Contribuir a Language-Teachers
+# Contributing to Language-Teachers
 
-Puedes proponer mejoras o un nuevo tutor mediante una pull request. Para uso personal, basta con modificar tu copia local.
+Suggest improvements or a new tutor through a pull request. For personal use, you can simply modify your local copy.
 
-## Nuevo tutor
+## Add a tutor
 
-Crea una carpeta con un nombre claro que indique el idioma objetivo y, cuando sea relevante, el idioma de origen: por ejemplo, `French-From-Spanish/`. Utiliza un identificador único en minúsculas y con guiones en el campo `name` de `SKILL.md`.
+Create a folder with a clear name indicating the target language and, when relevant, the source language: for example, `French-From-Spanish/`. Use a unique lowercase, hyphenated identifier in the `name` field of `SKILL.md`.
 
-Incluye:
+Include:
 
-- `SKILL.md` con `name`, `description` e instrucciones completas para el tutor.
-- Un README que indique idiomas de origen y objetivo, nivel inicial, instalación y ejemplos.
-- Referencias solo cuando aporten orientación necesaria para ese tutor.
-- Metadatos de `agents/openai.yaml` coherentes si incluyes ese archivo.
+- `SKILL.md` with `name`, `description`, and complete tutor instructions.
+- A README stating the source and target languages, starting level, installation steps, and examples.
+- References only when they provide guidance the tutor needs.
+- Consistent metadata in `agents/openai.yaml` if you include that file.
 
-Adapta la pedagogía al idioma. Revisa ejemplos y correcciones con atención a las diferencias entre ambos idiomas. Si el tutor enseña en ambas direcciones, prueba cada dirección.
+Adapt the teaching approach to the language. Review examples and corrections with attention to differences between the two languages. If the tutor teaches in both directions, try each direction.
 
-Añade el tutor a la tabla del README principal y comprueba que los enlaces relativos funcionan. Explica en la pull request qué enseña y qué ejemplos usaste para comprobar su comportamiento.
+Add the tutor to the table in the main README and check that relative links work. Explain in your pull request what the tutor teaches and which examples you used to check its behavior.
 
-No incluyas conversaciones personales, datos de estudiantes, credenciales ni exportaciones generadas. Comparte únicamente material propio o que tengas permiso para redistribuir bajo la licencia del proyecto.
+Write repository documentation in English. Tutor instructions may include other languages when needed for explanations, examples, or practice.
+
+Do not include personal conversations, student data, credentials, or generated exports. Share only material you own or have permission to redistribute under the project's license.

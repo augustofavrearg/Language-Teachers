@@ -1,17 +1,17 @@
 # English Teacher
 
-Skill para aprender inglés con un tutor personal: explicaciones breves, práctica guiada y correcciones con apoyo en español. El recorrido predeterminado va de A1 a A2, con orientación para adaptar las clases a niveles A1–C2 del MCER.
+A skill for learning English with a personal tutor: brief explanations, guided practice, and corrections with Spanish support. The default path runs from A1 to A2, with guidance for adapting lessons across CEFR levels A1–C2.
 
-## Qué incluye
+## Features
 
-- Clases y planes de estudio adaptados al nivel del estudiante.
-- Gramática por capas: verbo, tiempo, aspecto, voz, modalidad, negación y preguntas.
-- Práctica de conversación, lectura, construcción y análisis de oraciones.
-- Juegos como `Sentence Classifier`, `Aspect Triad`, `Be Three Ways` y `Story Detective`.
+- Lessons and study plans adapted to the learner's level.
+- Grammar layers: verb, tense, aspect, voice, modality, negation, and questions.
+- Conversation, reading, sentence building, and sentence analysis practice.
+- Games including `Sentence Classifier`, `Aspect Triad`, `Be Three Ways`, and `Story Detective`.
 
-## Instalación manual en Codex
+## Manual installation in Codex
 
-Descarga el repositorio Language-Teachers y copia el contenido de `English-Teacher/` a la carpeta `english-teacher` dentro de tu directorio de skills de Codex (habitualmente `~/.codex/skills/`):
+Download the Language-Teachers repository and copy the contents of `English-Teacher/` into a folder named `english-teacher` in your Codex skills directory, usually `~/.codex/skills/`:
 
 ```text
 english-teacher/
@@ -23,29 +23,29 @@ english-teacher/
     └── grammar-layers.md
 ```
 
-Si configuraste `CODEX_HOME`, utiliza su subdirectorio `skills/`. Conserva cualquier versión local que hayas personalizado antes de reemplazar archivos. Inicia una nueva sesión de Codex después de instalarlo.
+If you configured `CODEX_HOME`, use its `skills/` subdirectory. Back up any customized local version before replacing files. Start a new Codex session after installation.
 
-## Cómo usarlo
+## Usage
 
-Pide una clase indicando el skill, tu nivel y tu objetivo:
-
-```text
-Usa $english-teacher. Mi nivel es A1 y quiero avanzar hacia A2.
-Explica en español y usa ejemplos en inglés.
-Comencemos con una clase corta sobre present simple.
-```
-
-También puedes pedir actividades concretas:
+Request a lesson by specifying the skill, your level, and your goal:
 
 ```text
-Usa $english-teacher para practicar una conversación en un restaurante.
+Use $english-teacher. My level is A1 and I want to progress toward A2.
+Explain in Spanish and use English examples.
+Start with a short lesson on the present simple.
+```
+
+You can also request specific activities:
+
+```text
+Use $english-teacher to practice a restaurant conversation.
 ```
 
 ```text
-Usa $english-teacher y analiza por capas: I have been studying English.
+Use $english-teacher and analyze the grammar layers in: I have been studying English.
 ```
 
-Con el skill activo, escribe `&play` para ver las categorías de juegos, o inicia uno directamente:
+With the skill active, type `&play` to see game categories, or start a game directly:
 
 ```text
 &play/classification/sentence-classifier
@@ -54,8 +54,8 @@ Con el skill activo, escribe `&play` para ver las categorías de juegos, o inici
 &play/reading/story-detective
 ```
 
-Estos comandos son convenciones de conversación interpretadas por el tutor.
+These commands are conversation conventions interpreted by the tutor.
 
-## Archivos
+## Files
 
-`SKILL.md` contiene las instrucciones del tutor; `agents/openai.yaml`, los metadatos de interfaz; y `references/`, las guías de niveles y gramática. El skill funciona mediante instrucciones y no requiere scripts ni servicios externos.
+`SKILL.md` contains the tutor instructions; `agents/openai.yaml` contains interface metadata; and `references/` contains level and grammar guides. The skill works through instructions and requires no scripts or external services.

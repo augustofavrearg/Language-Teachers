@@ -1,46 +1,46 @@
 # Language-Teachers
 
-Colección de skills para aprender y enseñar idiomas con tutores personales de IA. Cada persona puede descargar un tutor, personalizarlo para su uso y crear un puente entre el idioma que conoce y el que quiere aprender.
+A collection of skills for learning and teaching languages with personal AI tutors. Download a tutor, customize it for your own use, and build a bridge between a language you know and one you want to learn.
 
-## Tutores disponibles
+## Available tutors
 
-| Carpeta | Identificador del skill | Idioma que enseña | Idioma de apoyo |
+| Folder | Skill identifier | Target language | Support language |
 |---|---|---|---|
-| [English-Teacher](English-Teacher/README.md) | `english-teacher` | Inglés | Español |
+| [English-Teacher](English-Teacher/README.md) | `english-teacher` | English | Spanish |
 
-English-Teacher incluye clases breves, correcciones, gramática por capas y juegos. Su recorrido predeterminado va de A1 a A2, con orientación para adaptar las clases a A1–C2.
+English-Teacher includes short lessons, corrections, grammar layers, and practice games. Its default learning path runs from A1 to A2, with guidance for adapting lessons across CEFR levels A1–C2.
 
-## Descargar e instalar un tutor
+## Download and install a tutor
 
 ```bash
 git clone https://github.com/augustofavrearg/Language-Teachers.git
 ```
 
-También puedes descargar el ZIP desde GitHub. Para instalar English-Teacher en Codex, copia el contenido de `English-Teacher/` a una carpeta llamada `english-teacher` dentro de tu directorio de skills, habitualmente `~/.codex/skills/` o `$CODEX_HOME/skills/` si lo configuraste. Conserva una copia de cualquier versión personalizada antes de reemplazarla e inicia una nueva sesión después de instalar.
+You can also download the ZIP from GitHub. To install English-Teacher in Codex, copy the contents of `English-Teacher/` into a folder named `english-teacher` in your Codex skills directory, usually `~/.codex/skills/` or `$CODEX_HOME/skills/` if configured. Back up any customized version before replacing it, then start a new session after installation.
 
-La carpeta del repositorio usa `English-Teacher`; la carpeta instalada y el campo `name` del skill usan `english-teacher`.
+The repository folder is named `English-Teacher`; the installed folder and the skill's `name` field use `english-teacher`.
 
 ```text
-Usa $english-teacher. Hablo español y quiero aprender inglés desde A1.
-Dame una explicación breve y un ejercicio por turno.
+Use $english-teacher. I speak Spanish and want to learn English from A1.
+Give me a brief explanation and one exercise per turn.
 ```
 
-## Crear tu propio tutor o puente entre idiomas
+## Create your own tutor or language bridge
 
-Puedes modificar tu copia para uso personal o hacer un fork y compartir un nuevo tutor. No hace falta contribuir al repositorio para personalizar un skill.
+Modify your copy for personal use, or fork the repository and share a new tutor. You do not need to contribute to this repository to customize a skill.
 
-1. Copia `English-Teacher/` a una carpeta descriptiva, como `French-From-Spanish/`.
-2. Cambia el `name` de `SKILL.md` a un identificador en minúsculas con guiones, como `french-from-spanish`. Ajusta también su `description` para indicar qué enseña y cuándo usarlo.
-3. Define el idioma de origen o apoyo y el idioma objetivo. Por ejemplo: español → francés. Para un puente en ambos sentidos, explica cuándo practicar cada dirección.
-4. Adapta las instrucciones, los ejemplos, los juegos, las correcciones y los archivos de `references/`. Revisa las reglas propias del inglés; una traducción literal no basta.
-5. Actualiza `agents/openai.yaml` y el README del tutor con el nuevo nombre, propósito y ejemplos de invocación.
-6. Instálalo en una carpeta que coincida con su `name` y prueba una clase, una corrección y un ejercicio en cada dirección que ofrezca.
+1. Copy `English-Teacher/` into a descriptive folder, such as `French-From-Spanish/`.
+2. Change the `name` in `SKILL.md` to a lowercase, hyphenated identifier, such as `french-from-spanish`. Update its `description` to explain what it teaches and when to use it.
+3. Define the source or support language and the target language. For example: Spanish → French. For a bridge that works in both directions, explain when to practice each direction.
+4. Adapt the instructions, examples, games, corrections, and files in `references/`. Review rules specific to English; a literal translation is not enough.
+5. Update `agents/openai.yaml` and the tutor's README with its new name, purpose, and invocation examples.
+6. Install it in a folder matching its `name`, then try a lesson, a correction, and an exercise in every direction it supports.
 
-Un tutor debe aclarar el nivel inicial, los objetivos, el idioma de las explicaciones y cómo dará feedback. El idioma de apoyo y el idioma objetivo se configuran en sus instrucciones; el repositorio no implementa un sistema automático de comunicación entre skills.
+Each tutor should state its starting level, goals, explanation language, and feedback approach. The support and target languages are defined in its instructions; this repository does not implement automatic communication between skills.
 
-Para compartir cambios, consulta [CONTRIBUTING.md](CONTRIBUTING.md).
+To share changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Estructura
+## Structure
 
 ```text
 Language-Teachers/
@@ -56,6 +56,6 @@ Language-Teachers/
         └── grammar-layers.md
 ```
 
-## Licencia
+## License
 
-[MIT](LICENSE): puedes usar, modificar y compartir los tutores, conservando el aviso de copyright y la licencia.
+[MIT](LICENSE): you may use, modify, and share the tutors, provided you retain the copyright notice and license.

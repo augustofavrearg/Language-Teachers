@@ -1,7 +1,7 @@
-# Exportaciones generadas localmente
+# Locally generated exports
 SKILL.pdf
 
-# Archivos del sistema y temporales
+# System and temporary files
 .DS_Store
 Thumbs.db
 __pycache__/
@@ -9,7 +9,7 @@ __pycache__/
 *.swp
 *~
 
-# Configuración y credenciales locales
+# Local configuration and credentials
 .env
 .env.*
 !.env.example
