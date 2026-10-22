@@ -10,6 +10,10 @@ A collection of skills for learning and teaching languages with personal AI tuto
 
 English Teacher for Spanish Speakers includes short lessons, corrections, grammar layers, and practice games. Its default learning path runs from A1 to A2, with guidance for adapting lessons across CEFR levels A1–C2.
 
+## Use across AI assistants
+
+The tutor uses the Agent Skills format and can be installed in several compatible agents, including Codex, Claude Code, Gemini CLI, GitHub Copilot, and Cursor. Chat applications can use the supplied prompt and files. See the [platform guide](English-Teacher-From-Spanish/PLATFORMS.md) for setup and limitations.
+
 ## Download and install a tutor
 
 ```bash
@@ -50,6 +54,8 @@ Language-Teachers/
 └── English-Teacher-From-Spanish/
     ├── README.md
     ├── SKILL.md
+    ├── PLATFORMS.md
+    ├── CHAT-INSTRUCTIONS.md
     ├── agents/openai.yaml
     └── references/
         ├── cefr-path.md

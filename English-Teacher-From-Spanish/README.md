@@ -9,6 +9,10 @@ A skill for learning English with a personal tutor: brief explanations, guided p
 - Conversation, reading, sentence building, and sentence analysis practice.
 - Games including `Sentence Classifier`, `Aspect Triad`, `Be Three Ways`, and `Story Detective`.
 
+## Use with other assistants
+
+The same tutor can be used with Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, and chat applications. See the [platform guide](PLATFORMS.md) and [copyable chat instructions](CHAT-INSTRUCTIONS.md).
+
 ## Manual installation in Codex
 
 Download the Language-Teachers repository and copy the contents of `English-Teacher-From-Spanish/` into a folder named `english-teacher-from-spanish` in your Codex skills directory, usually `~/.codex/skills/`:
