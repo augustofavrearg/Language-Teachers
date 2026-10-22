@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Teacher for Spanish Speakers"
+  short_description: "English tutor for Spanish-speaking learners"
+  default_prompt: "Use $english-teacher-from-spanish to teach me English by grammar layers from A1 toward A2."

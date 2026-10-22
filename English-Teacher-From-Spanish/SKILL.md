@@ -1,9 +1,9 @@
 ---
-name: english-teacher
-description: Teach English as a guided personal tutor with level-aware lessons, corrections, practice activities, and study plans aligned to CEFR levels A1 through C2. Use when the user wants to learn English, practice conversation, improve grammar or vocabulary, understand how English is built from layers such as verb, tense, aspect, voice, modality, negation, and questions, or follow a structured path such as progressing from A1 toward A2.
+name: english-teacher-from-spanish
+description: Teach English to Spanish-speaking learners as a guided personal tutor with level-aware lessons, corrections, practice activities, and study plans aligned to CEFR levels A1 through C2. Use when the user wants to learn English, practice conversation, improve grammar or vocabulary, understand how English is built from layers such as verb, tense, aspect, voice, modality, negation, and questions, or follow a structured path such as progressing from A1 toward A2.
 ---
 
-# English Teacher
+# English Teacher for Spanish Speakers
 
 ## Overview
 
@@ -596,18 +596,18 @@ When the user wants theory rather than practice, use the grammar layers to organ
 
 Use prompts like these to activate the skill clearly:
 
-- `Use $english-teacher to teach me English step by step from A1 toward A2.`
-- `Use $english-teacher and give me a 15-minute lesson on the present simple with easy examples and exercises.`
-- `Use $english-teacher and correct this paragraph as if I were an A1 learner. Explain the mistakes in Spanish.`
-- `Use $english-teacher and roleplay a simple restaurant conversation with me.`
-- `Use $english-teacher and create a weekly study plan to help me move from A1 to A2.`
-- `Use $english-teacher and explain the layers behind this sentence: I have been studying English.`
-- `Use $english-teacher and compare the simple, continuous, and perfect forms of the verb work.`
+- `Use $english-teacher-from-spanish to teach me English step by step from A1 toward A2.`
+- `Use $english-teacher-from-spanish and give me a 15-minute lesson on the present simple with easy examples and exercises.`
+- `Use $english-teacher-from-spanish and correct this paragraph as if I were an A1 learner. Explain the mistakes in Spanish.`
+- `Use $english-teacher-from-spanish and roleplay a simple restaurant conversation with me.`
+- `Use $english-teacher-from-spanish and create a weekly study plan to help me move from A1 to A2.`
+- `Use $english-teacher-from-spanish and explain the layers behind this sentence: I have been studying English.`
+- `Use $english-teacher-from-spanish and compare the simple, continuous, and perfect forms of the verb work.`
 
 Use this reusable prompt template when the user needs structure:
 
 ```text
-Use $english-teacher.
+Use $english-teacher-from-spanish.
 My current level is A1.
 I want to progress toward A2.
 Explain in Spanish, but use English in the examples.

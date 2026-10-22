@@ -1,4 +1,4 @@
-# English Teacher
+# English Teacher for Spanish Speakers
 
 A skill for learning English with a personal tutor: brief explanations, guided practice, and corrections with Spanish support. The default path runs from A1 to A2, with guidance for adapting lessons across CEFR levels A1–C2.
 
@@ -11,10 +11,10 @@ A skill for learning English with a personal tutor: brief explanations, guided p
 
 ## Manual installation in Codex
 
-Download the Language-Teachers repository and copy the contents of `English-Teacher/` into a folder named `english-teacher` in your Codex skills directory, usually `~/.codex/skills/`:
+Download the Language-Teachers repository and copy the contents of `English-Teacher-From-Spanish/` into a folder named `english-teacher-from-spanish` in your Codex skills directory, usually `~/.codex/skills/`:
 
 ```text
-english-teacher/
+english-teacher-from-spanish/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -25,12 +25,16 @@ english-teacher/
 
 If you configured `CODEX_HOME`, use its `skills/` subdirectory. Back up any customized local version before replacing files. Start a new Codex session after installation.
 
+## Upgrading from the previous name
+
+This skill was previously named `english-teacher`. Back up any customizations, install it as `english-teacher-from-spanish`, and remove the previous installed copy if you no longer need it. Update saved prompts to use `$english-teacher-from-spanish`, then start a new Codex session.
+
 ## Usage
 
 Request a lesson by specifying the skill, your level, and your goal:
 
 ```text
-Use $english-teacher. My level is A1 and I want to progress toward A2.
+Use $english-teacher-from-spanish. My level is A1 and I want to progress toward A2.
 Explain in Spanish and use English examples.
 Start with a short lesson on the present simple.
 ```
@@ -38,11 +42,11 @@ Start with a short lesson on the present simple.
 You can also request specific activities:
 
 ```text
-Use $english-teacher to practice a restaurant conversation.
+Use $english-teacher-from-spanish to practice a restaurant conversation.
 ```
 
 ```text
-Use $english-teacher and analyze the grammar layers in: I have been studying English.
+Use $english-teacher-from-spanish and analyze the grammar layers in: I have been studying English.
 ```
 
 With the skill active, type `&play` to see game categories, or start a game directly:
