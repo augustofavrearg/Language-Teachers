@@ -1,0 +1,15 @@
+# Exportaciones generadas localmente
+SKILL.pdf
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.swp
+*~
+
+# Configuración y credenciales locales
+.env
+.env.*
+!.env.example

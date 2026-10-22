@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Teacher"
+  short_description: "Personal English learning coach"
+  default_prompt: "Use $english-teacher to teach me English by grammar layers from A1 toward A2."
