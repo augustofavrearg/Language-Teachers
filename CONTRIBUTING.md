@@ -1,6 +1,15 @@
 # Contributing to Language-Teachers
 
-Suggest improvements or a new tutor through a pull request. For personal use, you can simply modify your local copy.
+Contributions are welcome through pull requests. For personal use, you can simply modify your local copy.
+
+## Contribution and review process
+
+1. Fork the repository and create a branch for your change.
+2. Make your changes and check them using the guidance below.
+3. Open a pull request against `main`, explaining the purpose and how you checked the change.
+4. Respond to review feedback and update your branch as needed.
+
+The repository owner, [@augustofavrearg](https://github.com/augustofavrearg), reviews contributions and decides whether to approve, request changes, or close a pull request. Opening a pull request does not guarantee acceptance. Please do not push directly to `main`.
 
 ## Add a tutor
 

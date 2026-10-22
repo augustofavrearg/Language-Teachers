@@ -42,7 +42,7 @@ Modify your copy for personal use, or fork the repository and share a new tutor.
 
 Each tutor should state its starting level, goals, explanation language, and feedback approach. The support and target languages are defined in its instructions; this repository does not implement automatic communication between skills.
 
-To share changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+To share changes, open a pull request; the repository owner reviews each contribution and decides whether to accept it. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Structure
 
